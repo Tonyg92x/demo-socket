@@ -1,0 +1,21 @@
+node-ws-2:
+    Tutoriel ws authentification:       https://www.youtube.com/watch?v=twNgfrE4ShE
+    Github avec le projet pour test:    https://github.com/covalence-io/ws-auth
+
+
+#   =============== Notes           =============== #
+
+ws vs socker.io
+----------
+
+ws is lighter faster, less memory leaks, scale better
+
+
+Authentication
+----------
+Possibilité de créer un token pour une machine sur le serveur.
+Utiliser le chemin vers le token ou le token dans la requête du client pour initialisé le socket web.
+
+Authentication
+---------------
+uttils/index.ts => validToken() -> JWT validation here
