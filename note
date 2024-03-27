@@ -1,9 +1,16 @@
-node-ws-2:
+cloudserver:
     Tutoriel ws authentification:       https://www.youtube.com/watch?v=twNgfrE4ShE
     Github avec le projet pour test:    https://github.com/covalence-io/ws-auth
 
 
 #   =============== Notes           =============== #
+
+nodejs requirements
+----------
+sudo npm install -g typescript
+sudo npm install -g typings
+sudo npm i cookie-parser @types/cookie-parser --save
+sudo npm i --save ws @types/ws
 
 ws vs socker.io
 ----------
